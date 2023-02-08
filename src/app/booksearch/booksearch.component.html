@@ -1,0 +1,10 @@
+<body>
+      <input type="text" [(ngModel)]="inp">
+      <button type="submit" (click)="searchByBook()">SEARCH BY BOOK</button>
+      <button type="submit" (click)="searchByAuthor()">SEARCH BY AUTHOR</button>
+
+      <app-pagination [link1]="globalComponent.get_link"></app-pagination>
+
+</body>
+
+

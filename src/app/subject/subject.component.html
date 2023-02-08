@@ -1,0 +1,22 @@
+<script src="https://kit.fontawesome.com/1c98ea429c.js" crossorigin="anonymous"></script>
+
+<body>
+    <input type="text" [(ngModel)]="inp">
+    <button type="submit" (click)="searchBySubject()">GO</button>
+    <div class="wrapper">
+        <div class="title-wrapper">
+            <div class="text-title">
+                TRENDING SUBJECTS
+            </div>
+            <div class="subjects">
+                <ul class="list">
+                    <li><button (click)="callsubject('javascript')"><i class="bi bi-filetype-js"></i>Javascript</button></li>
+                    <li><button (click)="callsubject('english')"><i class="bi bi-book-half"></i>English</button></li>
+                    <li><button (click)="callsubject('cooking')"><i class="bi bi-cup-hot-fill"></i>Cooking</button></li>
+                    <li><button (click)="callsubject('design')"><i class="bi bi-magic"></i>Design</button></li>
+                    <li><button (click)="callsubject('music')"><i class="bi bi-file-music-fill"></i>Music</button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>

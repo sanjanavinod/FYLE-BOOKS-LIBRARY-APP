@@ -1,0 +1,16 @@
+body {
+    background-color: #C8DBE4;
+    width: 100%;
+    height: max-content;
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        flex-direction: column;
+        background-color: #C8DBE4;
+        position: absolute;
+        height: 290%;
+    }
+}
+
